@@ -1,0 +1,108 @@
+.bg-img1 {
+  background: #000;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1322277517/vi/anh/c%E1%BB%8F-d%E1%BA%A1i-tr%C3%AAn-n%C3%BAi-l%C3%BAc-ho%C3%A0ng-h%C3%B4n.jpg?s=612x612&w=0&k=20&c=ng_7l3FyBObY5ZJq2BgWCkOKct9Qk6ITFnCC2r55IKQ=);
+}
+.bg-img2 {
+  background: #000;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/844226534/vi/anh/n%E1%BB%81n-l%C3%A1.jpg?s=612x612&w=0&k=20&c=gdqfdXdO60sSpGvXAZA8-1iwf47nMavIIpA0HN-q5kU=);
+}
+.bg-img3 {
+  background: #000;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/1301592032/vi/anh/n%E1%BB%81n-%C4%91%E1%BA%B9p-m%C3%B9a-xu%C3%A2n-v%E1%BB%9Bi-nh%E1%BB%AFng-t%C3%A1n-l%C3%A1-non-xanh-m%E1%BB%8Dng-n%C6%B0%E1%BB%9Bc-v%C3%A0-b%C3%A0n-g%E1%BB%97-tr%E1%BB%91ng-r%E1%BB%97ng-ngo%C3%A0i-tr%E1%BB%9Di.jpg?s=612x612&w=0&k=20&c=FAjFeZaaNXFUU-4z7HyE9O2UevcDm-eb_VsvRabTP60=);
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/*CAROUSEL */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Khối text với button.*/
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Chiều cao của khối carousel-item */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Căn giữa văn bản trong ba cột bên dưới Carousel  */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
